@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <h1>Shop<span id="zone">Zone</span></h1>
+</div>
+  <div id="nav-links">
+     <a href="">Home</a>
+    <a href=""> Products</a>
+    <a href="">Categories</a>
+    <a href="">About Us</a>
+    <a href=""> contact Us</a>
+  </div>
+  <div id="not-visible"></div>
+</div>
+<div id="card-container">
+    
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRwYbjrHN1nFdxN4uG94-GDYoNJc1Prgou2h0V2POzkQ&s=10"
+        alt="" width="" height="">
+        <h2>Sports shoes</h2>
+        <h4>⭐⭐⭐⭐⭐<span style="color: gray;">(128)</span></h4>
+        <h3 style="color: red ; font-weight:bold;">&#8377; 1999 <del style="color: gray;">2999</del></h3>
+        <button>Buy Now</button>
+</div>
+
+    
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3citr7oGn_BA8CrwuXJTNcYSK2M0LkSkU-XtWDdDHUA&s=10"
+        alt="" width="" height="">
+        <h2>Analog Watch </h2>
+        <h4>⭐⭐⭐⭐⭐<span style="color: gray;">(120)</span></h4>
+        <h3 style="color: red; font-weight: bold;">&#8377;1999 <del style="color: gray;">2999</del></h3>
+        <button>Buy Now</button>
+</div>
+    
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaW5VCILv7Oo5F9kq7U7abQ9s6wg7foEueDVbacb4_XQ&s=10"
+        alt="" width="" height="">
+        <h2>Travel Bag </h2>
+        <h4>⭐⭐⭐⭐⭐<span style="color: gray;">(110)</span></h4>
+        <h3 style="color: red; font-weight: bold;">&#8377; 1999 <del style="color: gray;">2999</del></h3>
+        <button>Buy Now</button>
+</div>
+    
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx2DPz4z3MyK63qQ7CifPxnX2KYkLITbTfGX7PHtanNg&s=10"
+        alt="" width="" height="">
+        <h2>Sunglasses</h2>
+        <h4>⭐⭐⭐⭐⭐<span style="color: gray;">(118)</span></h4>
+        <h3 style="color: red; font-weight: bold;">&#8377; 1999 <del style="color: gray;">2999</del></h3>
+        <button>Buy Now</button>
+</div>
+</body>
+</html>

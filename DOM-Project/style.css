@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    display:flex;
+}
+#left{
+    border: 1px solid gray;
+    padding: 15px;
+    width: 35%;
+}
+#form-heading{
+    color: rgba(137, 43, 226, 0.926);
+
+}
+form{
+    margin-top: 30px;
+}
+input,textarea{
+    margin-top: 10px;
+    padding: 8px;
+    width: 94%;
+}
+#submit,#reset{
+    width: 100%;
+    padding: 10px;
+}
+#submit{
+    background-color: rgba(137, 43, 226, 0.826);
+    color: white;
+    border: none;
+}
+#reset{
+    border:none;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#right{
+    width: 100%;
+    padding: 15px;
+
+}
+#nav-right{
+    display: flex;
+    gap: 15px;
+}
+#all-profiles{
+    color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.342);
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+#clear{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    padding: 3px 5px;
+}
+.card{
+    height: 350px;
+    /* max-height:350px; */
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow:rgba(0,0,0,0.35) 0px 5px 15px;
+}
+#container{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+.card-profession{
+    color: rgba(137, 43, 226, 0.826);
+    background-color:rgba(137, 43, 226, 0.441);
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+h2{
+    margin-bottom: 5px;
+}
+.card-info{
+       margin-top: 15px;
+}
+.card-info-div{
+    text-align: left;
+    margin-top: 15px;
+}
+.icon{
+
+    display: inline-block;
+    width: 30px;
+    text-align:left;   
+    justify-content: center;
+}
+.info{
+    margin-top: 5px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+.delete-bnt{
+    width: 100%;
+    padding: 10px;
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+    margin-top:20px;
+    border-radius: 10px;
+}
+.delete{
+    width:15px;
+    height: 15px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+
+}
